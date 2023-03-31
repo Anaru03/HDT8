@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2e683d6-f5b9-46fc-a5f1-8417c6ad40ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HDT8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Proceso.java" afterDir="false" />
+    <list default="true" id="e2e683d6-f5b9-46fc-a5f1-8417c6ad40ef" name="Changes" comment="Se modelo el objeto Proceso">
+      <change afterPath="$PROJECT_DIR$/src/Model/txtReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proceso.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Proceso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Proceso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +49,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680283941436</updated>
-      <workItem from="1680283943042" duration="1281000" />
+      <workItem from="1680283943042" duration="2341000" />
     </task>
+    <task id="LOCAL-00001" summary="Se modelo el objeto Proceso">
+      <created>1680285279786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680285279786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se modelo el objeto Proceso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modelo el objeto Proceso" />
   </component>
 </project>

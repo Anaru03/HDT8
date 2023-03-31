@@ -2,12 +2,12 @@ package Model;
 
 public class Proceso implements Comparable<Proceso>{
     String name;
-    int user;
+    String user;
     int nice;
     int PR;
 
 
-    public Proceso(String name, int user, int nice) {
+    public Proceso(String name, String user, int nice) {
         this.name = name;
         this.user = user;
         this.nice = nice;
@@ -22,11 +22,11 @@ public class Proceso implements Comparable<Proceso>{
         this.name = name;
     }
 
-    public int getUser() {
+    public String getUser() {
         return user;
     }
 
-    public void setUser(int user) {
+    public void setUser(String user) {
         this.user = user;
     }
 
