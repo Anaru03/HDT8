@@ -24,9 +24,11 @@ public class txtReader {
         try{
             File myObj = new File(fileUrl);
             Scanner myReader = new Scanner(myObj);
-            while (myReader.hasNextLine());
-            String[] line = myReader.nextLine().split(",");
-            proceso.add(new Proceso(line[0].trim(),line[1].trim(), Integer.parseInt(line[2].trim())));
+            while (myReader.hasNextLine()) {
+                String[] line = myReader.nextLine().split(",");
+                proceso.add(new Proceso(line[0].trim(), line[1].trim(), Integer.parseInt(line[2].trim())));
+            }
+            myReader.close();
         }
         catch (FileNotFoundException e) {
             throw new RuntimeException(e);

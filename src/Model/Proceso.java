@@ -46,6 +46,11 @@ public class Proceso implements Comparable<Proceso>{
         this.PR = PR;
     }
 
+    public String toString(){
+        return (getName()+", "+getUser()+", "+getNice()+", PR="+getPR());
+    }
+
+
     /**
      * Compares this object with the specified object for order.  Returns a
      * negative integer, zero, or a positive integer as this object is less

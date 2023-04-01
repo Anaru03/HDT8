@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2e683d6-f5b9-46fc-a5f1-8417c6ad40ef" name="Changes" comment="Se implemento la Interfaz IHeap, la clase HeapEntry y se empezo la creacion del PriorityQueueWithHeap">
-      <change afterPath="$PROJECT_DIR$/src/ProcesController.java" afterDir="false" />
+    <list default="true" id="e2e683d6-f5b9-46fc-a5f1-8417c6ad40ef" name="Changes" comment="txtReader">
+      <change afterPath="$PROJECT_DIR$/src/Model/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Proceso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Proceso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/txtReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/txtReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +15,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,23 +39,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/EstructuraDeDatosUVG/HDT8"
+    "last_opened_file_path": "C:/HDT8---Heaps"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="ProcesController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProcesController" />
-      <module name="HDT8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ProcesController" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +51,6 @@
       <option name="presentableId" value="Default" />
       <updated>1680283941436</updated>
       <workItem from="1680283943042" duration="2341000" />
-      <workItem from="1680371019754" duration="2597000" />
     </task>
     <task id="LOCAL-00001" summary="Se modelo el objeto Proceso">
       <created>1680285279786</created>
@@ -73,14 +59,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680285279786</updated>
     </task>
-    <task id="LOCAL-00002" summary="Se implemento la Interfaz IHeap, la clase HeapEntry y se empezo la creacion del PriorityQueueWithHeap">
-      <created>1680373082066</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1680373082066</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +78,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se modelo el objeto Proceso" />
-    <MESSAGE value="Se implemento la Interfaz IHeap, la clase HeapEntry y se empezo la creacion del PriorityQueueWithHeap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se implemento la Interfaz IHeap, la clase HeapEntry y se empezo la creacion del PriorityQueueWithHeap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modelo el objeto Proceso" />
   </component>
 </project>
