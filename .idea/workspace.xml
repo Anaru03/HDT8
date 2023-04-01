@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2e683d6-f5b9-46fc-a5f1-8417c6ad40ef" name="Changes" comment="Se modelo el objeto Proceso">
-      <change afterPath="$PROJECT_DIR$/src/Model/txtReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proceso.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/HeapEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/IHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/PriorityQueueWithHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Proceso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Proceso.java" afterDir="false" />
     </list>
@@ -15,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,7 +40,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/EstructuraDeDatosUVG/HDT8"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680283941436</updated>
       <workItem from="1680283943042" duration="2341000" />
+      <workItem from="1680371019754" duration="1492000" />
     </task>
     <task id="LOCAL-00001" summary="Se modelo el objeto Proceso">
       <created>1680285279786</created>

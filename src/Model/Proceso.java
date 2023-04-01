@@ -87,6 +87,13 @@ public class Proceso implements Comparable<Proceso>{
      */
     @Override
     public int compareTo(Proceso o) {
-        return 0;
+        int o1 = this.PR;
+        int o2 = o.getPR();
+        if ((int)o1 == (int)o2)
+            return 0;
+        else if ((int)o1 > (int)o2)
+            return 1;
+        else
+            return -1;
     }
 }
