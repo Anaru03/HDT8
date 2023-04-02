@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2e683d6-f5b9-46fc-a5f1-8417c6ad40ef" name="Changes" comment="Se imprimieron los valores de forma correcta">
+    <list default="true" id="e2e683d6-f5b9-46fc-a5f1-8417c6ad40ef" name="Changes" comment="Comentarios del Model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Proceso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Proceso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/txtReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/txtReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProcesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProcesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,12 +97,12 @@
       <option name="project" value="LOCAL" />
       <updated>1680373082066</updated>
     </task>
-    <task id="LOCAL-00003" summary="Se imprimieron los valores de forma correcta">
-      <created>1680404581738</created>
+    <task id="LOCAL-00003" summary="Comentarios del Model">
+      <created>1680463099514</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1680404581738</updated>
+      <updated>1680463099514</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -123,7 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se modelo el objeto Proceso" />
     <MESSAGE value="Se implemento la Interfaz IHeap, la clase HeapEntry y se empezo la creacion del PriorityQueueWithHeap" />
-    <MESSAGE value="Se imprimieron los valores de forma correcta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se imprimieron los valores de forma correcta" />
+    <MESSAGE value="Comentarios del Model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comentarios del Model" />
   </component>
 </project>

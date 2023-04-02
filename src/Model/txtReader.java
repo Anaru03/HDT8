@@ -31,8 +31,7 @@ public class txtReader {
     }
 
     /**
-     *
-     * @return
+     * @return regresa un ArrayList
      */
     public ArrayList<Proceso> returnArrProceso(){
         try{
