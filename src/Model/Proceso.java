@@ -6,7 +6,11 @@ public class Proceso implements Comparable<Proceso>{
     int nice;
     int PR;
 
-
+    /**
+     * @param name nombre del proceso
+     * @param user usuario que pertenece el proceso
+     * @param nice prioridad del proceso
+     */
     public Proceso(String name, String user, int nice) {
         this.name = name;
         this.user = user;
@@ -14,38 +18,65 @@ public class Proceso implements Comparable<Proceso>{
         this.PR = 120 + nice;
     }
 
+    /**
+     * @return regresa el nuevo nombre del proceso
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * @param name especifica el nuevo nombre del proceso
+     */
     public void setName(String name) {
         this.name = name;
     }
 
+    /**
+     * @return retorna el nuevo usuario al que pertenece el proceso
+     */
     public String getUser() {
         return user;
     }
 
+    /**
+     * @param user especifica el nuevo usuario al que pertenece el proceso
+     */
     public void setUser(String user) {
         this.user = user;
     }
 
+    /**
+     * @return retorna la nueva prioridad relativa del proceso
+     */
     public int getNice() {
         return nice;
     }
 
+    /**
+     * @param nice especifica la nueva prioridad relativa del proceso
+     */
     public void setNice(int nice) {
         this.nice = nice;
     }
 
+    /**
+     * @return retorna el nuevo valor de la prioridad del proceso
+     */
     public int getPR() {
         return PR;
     }
 
+    /**
+     * @param PR especifica el nuevo valor de la prioridad del proceso
+     */
     public void setPR(int PR) {
         this.PR = PR;
     }
 
+    /**
+     * @return retorna una cadena de texto que representa el objeto Proceso
+     */
     public String toString(){
         return ("Nombre: "+ getName()+", Usuario: "+getUser()+", Nice Value "+getNice()+", PR: "+getPR());
     }

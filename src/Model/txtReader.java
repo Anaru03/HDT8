@@ -7,19 +7,33 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
+/**
+ * Lector de archivos de texto con información de procesos
+ */
 public class txtReader {
 
     public String fileUrl;
     public ArrayList<Proceso> proceso = new ArrayList<>();
 
+    /**
+     * @param path ruta del archivo de texto
+     */
     public txtReader(String path){
         this.fileUrl = path;
     }
 
+    /**
+     *¡¡¡¡Al descargar el archivo txt, se debe de escribir la direccion exacta del
+     * archivo donde se descargó para el funcionamiento del programa!!!!
+     */
     public txtReader(){
         this.fileUrl = "C:\\JAVAUVG\\HDT8\\src\\proceso.txt";
     }
 
+    /**
+     *
+     * @return
+     */
     public ArrayList<Proceso> returnArrProceso(){
         try{
             File myObj = new File(fileUrl);
