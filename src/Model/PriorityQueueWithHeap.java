@@ -70,7 +70,7 @@ public class PriorityQueueWithHeap<P extends Comparable<P>, V> implements IHeap<
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return heap.isEmpty();
     }
     private int parent(int i) {
         return (i - 1) / 2;

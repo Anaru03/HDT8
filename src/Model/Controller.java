@@ -1,4 +1,5 @@
 package Model;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.PriorityQueue;
@@ -6,8 +7,14 @@ import java.util.Scanner;
 
 public class Controller {
 
-    public static void main(String[] args) {
+    private long startTime; // Nuevo campo para el tiempo de inicio del programa
 
+    public Controller() {
+        startTime = System.currentTimeMillis(); // Inicializar startTime en el momento de la creación del objeto Controller
+    }
+
+    public static void main(String[] args) {
+        Controller controller = new Controller(); // Crear un objeto Controller
         PriorityQueue<Proceso> procesos = new PriorityQueue<>();
 
         try {
@@ -21,8 +28,20 @@ public class Controller {
 
                 procesos.offer(proceso);
             }
+            scanner.close();
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            System.out.println("Error: Archivo no encontrado.");
+            e.printStackTrace();
         }
+
+        while (!procesos.isEmpty()) {
+            Proceso proceso = procesos.poll();
+            System.out.println(proceso.toString() + " - Tiempo transcurrido: " + controller.tiempoTranscurrido() + " ms");
+        }
+    }
+
+    // Nuevo método para calcular el tiempo transcurrido desde el inicio del programa
+    private long tiempoTranscurrido() {
+        return System.currentTimeMillis() - startTime;
     }
 }
