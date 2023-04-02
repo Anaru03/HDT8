@@ -18,8 +18,8 @@ public class ProcesController {
         for (Proceso proceso: arr) {
             pq.Insert(proceso.getPR(),proceso);
         }
-        ui.print("Proceso en orden de ejecucion: ");
-        for (Proceso proceso : arr){
+        ui.print("Proceso en orden de ejecucion Usando PriorityQueue con Heap: ");
+        while (!pq.isEmpty()){
             ui.print(pq.get().toString()+" time: "+ String.valueOf(tiempoTranscurrido()));
             pq.remove();
         }
