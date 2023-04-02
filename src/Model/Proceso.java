@@ -47,7 +47,7 @@ public class Proceso implements Comparable<Proceso>{
     }
 
     public String toString(){
-        return (getName()+", "+getUser()+", "+getNice()+", PR="+getPR());
+        return ("Nombre: "+ getName()+", Usuario: "+getUser()+", Nice Value "+getNice()+", PR: "+getPR());
     }
 
 
@@ -101,4 +101,5 @@ public class Proceso implements Comparable<Proceso>{
         else
             return -1;
     }
+
 }

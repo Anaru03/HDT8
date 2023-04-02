@@ -20,7 +20,7 @@ public class txtReader {
         this.fileUrl = "C:\\JAVAUVG\\HDT8\\src\\proceso.txt";
     }
 
-    public ArrayList<Proceso> returnArrWords(){
+    public ArrayList<Proceso> returnArrProceso(){
         try{
             File myObj = new File(fileUrl);
             Scanner myReader = new Scanner(myObj);
